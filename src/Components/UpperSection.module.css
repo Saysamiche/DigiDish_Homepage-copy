@@ -1,0 +1,174 @@
+.bodyContents {
+  background-image: url("../Images/Rectangle 105.png");
+  width: 100%;
+  height: 932px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.secBackGround {
+  padding-top: 60px;
+  width: 100%;
+}
+.togglebutton {
+  display: none;
+}
+.navBody {
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin-left: 40px;
+}
+
+.image {
+  width: 148.84px;
+  height: 38px;
+  margin-top: 5px;
+}
+.navBar {
+  display: flex;
+  width: 80%;
+  height: 49px;
+  margin-left: 100px;
+}
+.navContents {
+  list-style: none;
+  padding: 14px 10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.navBody .navButton {
+  margin-left: 180px;
+  margin-top: 5px;
+  color: #fbc500;
+  background-color: #000000;
+  height: 38px;
+  padding: 3px 10px;
+}
+
+.navButton {
+  width: 135px;
+  height: 48px;
+  border-radius: 8px;
+  background: #fbc500;
+  border: none;
+  cursor: pointer;
+}
+.watchButton {
+  background: transparent;
+  color: #ffffff;
+  width: 135px;
+  height: 48px;
+  border-radius: 8px;
+  border-color: #fbc500;
+  cursor: pointer;
+}
+.textBodyContent {
+  text-align: center;
+  padding-top: 230px;
+  line-height: 30px;
+}
+.textBodyContent h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57.6px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.textBodyContent p {
+  color: #9e9b9b;
+  line-height: 25px;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  padding-top: 13px;
+  font-weight: 600;
+}
+span {
+  color: #fbc500;
+}
+.contentButton {
+  margin-top: 160px;
+}
+.contentButton .navButton {
+  margin-right: 10px;
+}
+
+@media (max-width: 1171px) {
+  .secBackGround {
+    padding-top: 30px;
+  }
+  .togglebutton {
+    background: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-size: 18px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    border: 1px solid #fbc500;
+    border-radius: 5px;
+  }
+  .navBar {
+    display: none;
+    list-style: none;
+  }
+  .navBar.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .navBody .navButton {
+    margin-left: 0px;
+    background-color: transparent;
+    font-size: 16px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .textBodyContent {
+    padding-top: 280px;
+    line-height: 10px;
+  }
+  .textBodyContent h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .textBodyContent p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .bodyContents {
+    height: 632px;
+  }
+  .textBodyContent {
+    padding-top: 230px;
+    line-height: 30px;
+  }
+
+  .textBodyContent h1 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .textBodyContent p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .navContents {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .togglebutton {
+    padding: 0.2rem 0.5rem;
+    font-size: 12px;
+  }
+}

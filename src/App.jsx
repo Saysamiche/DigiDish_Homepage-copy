@@ -1,7 +1,7 @@
 import "./App.css";
 import Clients from "./Components/Clients";
 import DigiDishBg from "./Components/DigiDishBg";
-import EmenuPlatForm from "./Components/EmenuPlatform";
+import EmenuPlatForm from "./Components/EmenuPlatForm";
 import Features from "./Components/Features";
 import Footer from "./Components/Footer";
 import HowItWorks from "./Components/HowItWorks";

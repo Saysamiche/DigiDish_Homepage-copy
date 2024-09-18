@@ -7,7 +7,7 @@ export default function Footer() {
           <div className={Styles.imagecontainer}>
             <img
               className={Styles.image}
-              src=".\src\Images\Frame 1618869189.png"
+              src="./src/Images/Frame 1618869189.png"
               alt="DigiDish_Logo"
             />
           </div>
@@ -40,9 +40,9 @@ export default function Footer() {
           </div>
 
           <div className={Styles.socialmediaimg}>
-            <img src="\src\Images\Group 5.png" alt="Facebook logo" />
-            <img src="\src\Images\Group 11.png" alt="Instagram logo" />
-            <img src="\src\Images\Group 9.png" alt="LinkedIn logo" />
+            <img src="./src/Images/Group 5.png" alt="Facebook logo" />
+            <img src="./src/Images/Group 11.png" alt="Instagram logo" />
+            <img src="./src/Images/Group 9.png" alt="LinkedIn logo" />
           </div>
         </div>
       </div>

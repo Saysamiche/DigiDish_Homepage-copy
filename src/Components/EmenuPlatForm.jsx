@@ -11,7 +11,7 @@ export default function EmenuPlatForm() {
               <div className={Styles.Plat}>
                 <img
                   className={Styles.img}
-                  src=".\src\Images\vector.png"
+                  src="./src/Images/vector.png"
                   alt="photo"
                 />
                 <h4>Easy Menu Management</h4>
@@ -23,7 +23,7 @@ export default function EmenuPlatForm() {
               <div className={Styles.Plat}>
                 <img
                   className={Styles.img}
-                  src=".\src\Images\update-alt-2 1.png"
+                  src="./src/Images/update-alt-2 1.png"
                   alt="photo"
                 />
                 <h4>Real-Time Updates</h4>
@@ -37,7 +37,7 @@ export default function EmenuPlatForm() {
               <div className={Styles.Plat}>
                 <img
                   className={Styles.img}
-                  src=".\src\Images\heart-eyes-face 1.png"
+                  src="./src/Images/heart-eyes-face 1.png"
                   alt="photo"
                 />
                 <h4>Visually Appealing</h4>
@@ -50,7 +50,7 @@ export default function EmenuPlatForm() {
               <div className={Styles.Plat}>
                 <img
                   className={Styles.img}
-                  src=".\src\Images\user-heart 1.png"
+                  src="./src/Images/user-heart 1.png"
                   alt="photo"
                 />
                 <h4>User-Friendly Interface</h4>
@@ -69,22 +69,22 @@ export default function EmenuPlatForm() {
           <div className={Styles.images}>
             <img
               className={Styles.Ellipse}
-              src=".\src\Images\Ellipse 4.png"
+              src="./src/Images/Ellipse 4.png"
               alt="photo"
             />
             <img
               className={Styles.Group13}
-              src=".\src\Images\Group 13.png"
+              src="./src/Images/Group 13.png"
               alt="photo"
             />
             <img
               className={Styles.Group15}
-              src=".\src\Images\Group 15.png"
+              src="./src/Images/Group 15.png"
               alt="photo"
             />
             <img
               className={Styles.Group14}
-              src=".\src\Images\Group 14.png"
+              src="./src/Images/Group 14.png"
               alt="photo"
             />
           </div>

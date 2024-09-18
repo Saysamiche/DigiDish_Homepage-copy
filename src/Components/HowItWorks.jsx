@@ -15,7 +15,7 @@ export default function HowItWorks() {
         <div className={Styles.platimage}>
           <img
             className={Styles.platimage1}
-            src="src\Images\Group 8.png"
+            src="./src/Images/Group 8.png"
             alt="image"
           />
         </div>
@@ -25,7 +25,7 @@ export default function HowItWorks() {
         <div className={Styles.platimage}>
           <img
             className={Styles.platimage2}
-            src="src\Images\Group 8 (1).png"
+            src="./src/Images/Group 8 (1).png"
             alt="image"
           />
         </div>
@@ -33,9 +33,7 @@ export default function HowItWorks() {
         <div className={Styles.contents}>
           <h4 className={Styles.number}>02</h4>
           <h5>Upload Menu</h5>
-          <p>
-            And your menu items, descriptions, prices, and images.
-          </p>
+          <p>And your menu items, descriptions, prices, and images.</p>
         </div>
       </div>
 
@@ -50,7 +48,7 @@ export default function HowItWorks() {
         <div className={Styles.platimage}>
           <img
             className={Styles.platimage3}
-            src="src\Images\Group 8 (3).png"
+            src="./src/Images/Group 8 (3).png"
             alt="image"
           />
         </div>
@@ -60,7 +58,7 @@ export default function HowItWorks() {
         <div className={Styles.platimage}>
           <img
             className={Styles.platimage4}
-            src="src\Images\Group 8 (2).png"
+            src="./src/Images/Group 8 (2).png"
             alt="image"
           />
         </div>

@@ -13,7 +13,7 @@ export default function UpperSection() {
         <div className={Styles.navBody}>
           <img
             className={Styles.image}
-            src=".\src\Images\Frame 1618869189.png"
+            src="./src/Images/Logo.png"
             alt="DigiDish_Logo"
           />
 

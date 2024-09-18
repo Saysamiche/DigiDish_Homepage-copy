@@ -38,7 +38,7 @@ export default function Features() {
 
           <img
             className={Styles.img}
-            src=".\src\Images\Mask group.png"
+            src="./src/Images/Mask group.png"
             alt="photo"
           />
         </div>

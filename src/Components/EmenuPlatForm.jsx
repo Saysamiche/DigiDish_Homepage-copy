@@ -1,5 +1,5 @@
 import Styles from "./EmenuPlatForm.module.css";
-import vector from "/src/Images/vector.png";
+import Vector from "/src/Images/Vector.png";
 import update from "/src/Images/update.png";
 import heart from "/src/Images/heart.png";
 import user from "/src/Images/user.png";
@@ -17,7 +17,7 @@ export default function EmenuPlatForm() {
           <div className={Styles.wrap}>
             <div className={Styles.Platform1}>
               <div className={Styles.Plat}>
-                <img className={Styles.img} src={vector} alt="photo" />
+                <img className={Styles.img} src={Vector} alt="photo" />
                 <h4>Easy Menu Management</h4>
               </div>
               <p>Create, upload, and update menu items effortlessly.</p>

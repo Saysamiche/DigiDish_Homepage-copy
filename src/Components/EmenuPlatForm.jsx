@@ -1,4 +1,12 @@
 import Styles from "./EmenuPlatForm.module.css";
+import vector from "/src/Images/vector.png";
+import update from "/src/Images/update.png";
+import heart from "/src/Images/heart.png";
+import user from "/src/Images/user.png";
+import Ellipse1 from "/src/Images/Ellipse1.png";
+import Ellipse2 from "/src/Images/Ellipse2.png";
+import Ellipse3 from "/src/Images/Ellipse3.png";
+import Ellipse4 from "/src/Images/Ellipse4.png";
 export default function EmenuPlatForm() {
   return (
     <div>
@@ -9,11 +17,7 @@ export default function EmenuPlatForm() {
           <div className={Styles.wrap}>
             <div className={Styles.Platform1}>
               <div className={Styles.Plat}>
-                <img
-                  className={Styles.img}
-                  src="./src/Images/vector.png"
-                  alt="photo"
-                />
+                <img className={Styles.img} src={vector} alt="photo" />
                 <h4>Easy Menu Management</h4>
               </div>
               <p>Create, upload, and update menu items effortlessly.</p>
@@ -21,11 +25,7 @@ export default function EmenuPlatForm() {
 
             <div className={Styles.Platform2}>
               <div className={Styles.Plat}>
-                <img
-                  className={Styles.img}
-                  src="./src/Images/update-alt-2 1.png"
-                  alt="photo"
-                />
+                <img className={Styles.img} src={update} alt="photo" />
                 <h4>Real-Time Updates</h4>
               </div>
 
@@ -35,11 +35,7 @@ export default function EmenuPlatForm() {
             </div>
             <div className={Styles.Platform3}>
               <div className={Styles.Plat}>
-                <img
-                  className={Styles.img}
-                  src="./src/Images/heart-eyes-face 1.png"
-                  alt="photo"
-                />
+                <img className={Styles.img} src={heart} alt="photo" />
                 <h4>Visually Appealing</h4>
               </div>
 
@@ -48,11 +44,7 @@ export default function EmenuPlatForm() {
 
             <div className={Styles.Platform4}>
               <div className={Styles.Plat}>
-                <img
-                  className={Styles.img}
-                  src="./src/Images/user-heart 1.png"
-                  alt="photo"
-                />
+                <img className={Styles.img} src={user} alt="photo" />
                 <h4>User-Friendly Interface</h4>
               </div>
 
@@ -67,26 +59,10 @@ export default function EmenuPlatForm() {
             Solution
           </p>
           <div className={Styles.images}>
-            <img
-              className={Styles.Ellipse}
-              src="./src/Images/Ellipse 4.png"
-              alt="photo"
-            />
-            <img
-              className={Styles.Group13}
-              src="./src/Images/Group 13.png"
-              alt="photo"
-            />
-            <img
-              className={Styles.Group15}
-              src="./src/Images/Group 15.png"
-              alt="photo"
-            />
-            <img
-              className={Styles.Group14}
-              src="./src/Images/Group 14.png"
-              alt="photo"
-            />
+            <img className={Styles.Ellipse} src={Ellipse1} alt="photo" />
+            <img className={Styles.Group13} src={Ellipse2} alt="photo" />
+            <img className={Styles.Group15} src={Ellipse3} alt="photo" />
+            <img className={Styles.Group14} src={Ellipse4} alt="photo" />
           </div>
         </div>
       </div>

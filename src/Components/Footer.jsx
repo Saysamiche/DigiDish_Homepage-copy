@@ -1,15 +1,15 @@
 import Styles from "./Footer.module.css";
+import Logo from "/src/Images/Logo.png";
+import facebook from "/src/Images/facebook.png";
+import Instagram from "/src/Images/Instagram.png";
+import LinkedIn from "/src/Images/LinkedIn.png";
 export default function Footer() {
   return (
     <div>
       <div className={Styles.footer}>
         <div className={Styles.footcontents}>
           <div className={Styles.imagecontainer}>
-            <img
-              className={Styles.image}
-              src="./src/Images/Frame 1618869189.png"
-              alt="DigiDish_Logo"
-            />
+            <img className={Styles.image} src={Logo} alt="DigiDish_Logo" />
           </div>
           <div className={Styles.Qlink}>
             <div className={Styles.Qlinks}>
@@ -40,9 +40,9 @@ export default function Footer() {
           </div>
 
           <div className={Styles.socialmediaimg}>
-            <img src="./src/Images/Group 5.png" alt="Facebook logo" />
-            <img src="./src/Images/Group 11.png" alt="Instagram logo" />
-            <img src="./src/Images/Group 9.png" alt="LinkedIn logo" />
+            <img src={facebook} alt="Facebook logo" />
+            <img src={Instagram} alt="Instagram logo" />
+            <img src={LinkedIn} alt="LinkedIn logo" />
           </div>
         </div>
       </div>

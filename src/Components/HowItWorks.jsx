@@ -1,4 +1,8 @@
 import Styles from "./HowItWorks.module.css";
+import Menu1 from "/src/Images/Menu1.png";
+import Menu2 from "/src/Images/Menu2.png";
+import Menu3 from "/src/Images/Menu3.png";
+import Menu4 from "/src/Images/Menu4.png";
 export default function HowItWorks() {
   return (
     <div className={Styles.container}>
@@ -13,21 +17,13 @@ export default function HowItWorks() {
           </p>
         </div>
         <div className={Styles.platimage}>
-          <img
-            className={Styles.platimage1}
-            src="./src/Images/Group 8.png"
-            alt="image"
-          />
+          <img className={Styles.platimage1} src={Menu1} alt="image" />
         </div>
       </div>
 
       <div className={Styles.platformeven}>
         <div className={Styles.platimage}>
-          <img
-            className={Styles.platimage2}
-            src="./src/Images/Group 8 (1).png"
-            alt="image"
-          />
+          <img className={Styles.platimage2} src={Menu2} alt="image" />
         </div>
 
         <div className={Styles.contents}>
@@ -46,21 +42,13 @@ export default function HowItWorks() {
           </p>
         </div>
         <div className={Styles.platimage}>
-          <img
-            className={Styles.platimage3}
-            src="./src/Images/Group 8 (3).png"
-            alt="image"
-          />
+          <img className={Styles.platimage3} src={Menu3} alt="image" />
         </div>
       </div>
 
       <div className={Styles.platformeven}>
         <div className={Styles.platimage}>
-          <img
-            className={Styles.platimage4}
-            src="./src/Images/Group 8 (2).png"
-            alt="image"
-          />
+          <img className={Styles.platimage4} src={Menu4} alt="image" />
         </div>
         <div className={Styles.contents}>
           <h4 className={Styles.number}>04</h4>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Styles from "./UpperSection.module.css";
+import Logo from "/src/Images/Logo.png";
 export default function UpperSection() {
   const [isOpened, setIsOpened] = useState(false);
 
@@ -11,11 +12,7 @@ export default function UpperSection() {
     <div className={Styles.bodyContents}>
       <div className={Styles.secBackGround}>
         <div className={Styles.navBody}>
-          <img
-            className={Styles.image}
-            src="./src/Images/Logo.png"
-            alt="DigiDish_Logo"
-          />
+          <img className={Styles.image} src={Logo} alt="DigiDish_Logo" />
 
           <ul className={`${Styles.navBar} ${isOpened ? Styles.open : ""}`}>
             <li className={Styles.navContents}>Home</li>

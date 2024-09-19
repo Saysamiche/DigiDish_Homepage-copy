@@ -1,4 +1,5 @@
 import Styles from "./Features.module.css";
+import Mask from "/src/Images/Mask.png";
 export default function Features() {
   return (
     <div>
@@ -36,11 +37,7 @@ export default function Features() {
             </p>
           </div>
 
-          <img
-            className={Styles.img}
-            src="./src/Images/Mask group.png"
-            alt="photo"
-          />
+          <img className={Styles.img} src={Mask} alt="photo" />
         </div>
       </div>
     </div>

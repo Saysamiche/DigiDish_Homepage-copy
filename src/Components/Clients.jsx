@@ -1,4 +1,5 @@
 import Styles from "./Clients.module.css";
+import clients from "/src/Images/clients.png";
 export default function Clients() {
   return (
     <div className={Styles.container}>
@@ -7,7 +8,7 @@ export default function Clients() {
       <div className={Styles.contents}>
         <div className={Styles.group}>
           <div>
-            <img src="./src/Images/Frame 32.png" alt="Client photo" />
+            <img src={clients} alt="Client photo" />
           </div>
           <div className={Styles.texts}>
             <h3>John Doe</h3>
@@ -20,7 +21,7 @@ export default function Clients() {
 
         <div className={Styles.group}>
           <div className={Styles.imgfloat}>
-            <img src="./src/Images/Frame 32.png" alt="Client photo" />
+            <img src={clients} alt="Client photo" />
           </div>
           <div className={Styles.texts}>
             <h3>Rebecca Darlington</h3>
@@ -33,7 +34,7 @@ export default function Clients() {
 
         <div className={Styles.group}>
           <div>
-            <img src="./src/Images/Frame 32.png" alt="Client photo" />
+            <img src={clients} alt="Client photo" />
           </div>
           <div className={Styles.texts}>
             <h3>Kim Daniel</h3>
